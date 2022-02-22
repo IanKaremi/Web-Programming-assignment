@@ -5,6 +5,7 @@
 body{
     width: 90%;
     margin:0em auto;
+    background: #c1c1c1;
     background-color:azure;
     
 }
@@ -47,18 +48,41 @@ header>div{
 }
 .content{
     background-color: azure;
+    padding-left: 10px;
 }
 
-.sidebar{
+#sidebar{
     display:flex;
     flex-direction: column;
-    border:dotted 0.2em;
-    10pmargin: 1em;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    border:solid 0.1em;
+    overflow: hidden;
 }
+
+#sidebar li{
+    float:inline-end;
+    position:relative;
+}
+#sidebar ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.submenu-links{
+    display:none;
+    position:relative;
+    z-index: 1;
+    background-color:#51f6ff;
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.submenu:hover .submenu-links {
+    display: block;
+  }
 
 .navbar{
     margin:0.8em;

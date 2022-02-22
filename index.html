@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Afya Hospital</title>
+        <title>Afya Hospital - Home</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="web_assign.css">
@@ -27,22 +27,31 @@
         </header>
     <div class="main">
 
-        <nav class="sidebar">
+        <nav id="sidebar">
             <ul>
             <li class="navbar">Navigation Bar</li>
-            <li class="menu_items">Patient Records</li>
-            <li class="menu_items">Menu 2</li>
-            <li class="menu_items">Menu 3</li>
-            <li class="menu_items">Menu 4</li>
-            <li class="menu_items">Menu 5</li>
-            <li class="menu_items">Menu 6</li>
-            <li class="menu_items">Menu 7</li>
+            <div class="submenu">
+            <li class="menu_items" id="sublink"><a>Quick Records</a></li>
+                <ul class="submenu-links">
+                    <li>Patient 1</li>
+                    <li>Patient 2</li>
+                    <li>Patient 3</li>
+                </ul>
+            </div>
+            <li class="menu_items"><a href="Registration.html">Registration</a></li>
+            <li class="menu_items">Contacts</li>
             </ul>
         </nav>
 
         <div class="content">
             <h1>Home</h1>
             <p>Here is the content...</p>
+            <form action="" method="post">
+                <div class="form">
+                    <label for="name">Enter your name: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+            </form>
         </div>
         
 
