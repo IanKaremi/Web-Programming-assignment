@@ -9,13 +9,14 @@ body{
     
 }
 
-/*img{
-    width: 100%;
+img{
+    width: 10%;
     max-height: 10%;
-}*/
+    
+}
 .banner{
     display:flex;
-    justify-content: center;
+    justify-content: left;
     /*background-color: aqua;*/
     background-image: url("image2.png");
     background-size: cover;
