@@ -1,0 +1,16 @@
+td{
+    padding:10px;
+    border: solid 0.1em;
+}
+.table{
+    border: solid 0.1em;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.even{
+    background-color: cyan;
+}
+.odd{
+   background-color:white;
+}
