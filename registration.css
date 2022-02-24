@@ -6,3 +6,10 @@ ul{
 li{
     padding: 5px;
 }
+button{
+    padding:5px;
+}
+#buttons{
+    display: flex;
+    justify-content: flex-end;
+}
