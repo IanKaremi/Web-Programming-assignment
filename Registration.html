@@ -31,7 +31,7 @@
             <ul>
             <li class="navbar">Navigation Bar</li>
             <div class="submenu">
-            <li class="menu_items" id="sublink"><a>Quick Records</a></li>
+            <li class="menu_items" id="sublink"><a href="records.html">Quick Records</a></li>
                 <ul class="submenu-links">
                     <li>Patient 1</li>
                     <li>Patient 2</li>
@@ -51,31 +51,31 @@
                 <div class="form">
                 <ul>
                     <li>
-                    <label for="name">Patient ID: </label>
-                    <input type="text" name="name" id="name" required>
+                    <label for="id">Patient ID: </label>
+                    <input type="number" name="id" id="id"  required>
                     </li>
 
                     <li>
-                        <label for="name">First name: </label>
-                        <input type="text" name="name" id="name" required>
+                        <label for="fname">First name: </label>
+                        <input type="text" name="fname" id="fname"  required>
                     </li>
                     <li>
-                        <label for="name">Middle name: </label>
-                        <input type="text" name="name" id="name" required>
-                    </li>
-
-                    <li>
-                        <label for="name">Surname: </label>
-                        <input type="text" name="name" id="name" required>
+                        <label for="mname">Middle name: </label>
+                        <input type="text" name="mname" id="mname" required>
                     </li>
 
                     <li>
-                        <label for="name">Date of Birth: </label>
-                        <input type="date" name="name" id="name" required>
+                        <label for="sname">Surname: </label>
+                        <input type="text" name="sname" id="sname" required>
                     </li>
 
                     <li>
-                        <label for="name">Gender: </label>
+                        <label for="dob">Date of Birth: </label>
+                        <input type="date" name="dob" id="dob" required>
+                    </li>
+
+                    <li>
+                        <label for="gender">Gender: </label>
                         <select id="gender">
                             <option value="">--Please choose an option--</option>
                             <option value="M">Male</option>
@@ -148,8 +148,8 @@
                         </select>
                     </li>
                     <li id="buttons">
-                        <button>Send</button>
-                        <button>Clear</button>
+                        <input type="submit" value="Send" id="submit">
+                        <input type="reset" value="Clear" id="clear">
                     </li>
                 </ul>
                 </div>
