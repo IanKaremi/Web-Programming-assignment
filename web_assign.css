@@ -56,7 +56,7 @@ li{
 #sidebar{
     display:flex;
     flex-direction: column;
-    border:solid 0.1em;
+    border:solid 2px;
     overflow: hidden;
 }
 
