@@ -3,9 +3,17 @@ ul{
     padding: 10px;
 }
 
-
-button{
-    padding:5px;
+.content{
+    background-color: white;
+    height: fit-content;
+    margin: 10px;
+    border: solid 2px;
+    border-radius: 20px;
+    align-items: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 #buttons{
     display: flex;
