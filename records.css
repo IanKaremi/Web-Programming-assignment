@@ -8,9 +8,13 @@ td{
     letter-spacing: 1px;
     width: 100%;
 }
+#head{
+    font-size: large;
+    font-weight: bold;
+}
 .even{
-    background-color: cyan;
+    background-color: white;
 }
 .odd{
-   background-color:white;
+   background-color:cyan;
 }
