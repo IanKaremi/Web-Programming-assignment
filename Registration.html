@@ -21,7 +21,7 @@
         <header>
             <div><a href="index.html">Home</a></div>
             <div><a href="Registration.html">Registration</a></div>
-            <div><a href="records.html">Records</a></div>
+            <div><a href="/Afya/records.php">Records</a></div>
             <div><a href="about_us.html">About Us</a></div>
             <div><a href="contacts.html">Contacts</a></div>
         </header>
@@ -31,7 +31,7 @@
             <ul>
             <li class="navbar">Navigation Bar</li>
             <div class="submenu">
-            <li class="menu_items" id="sublink"><a href="records.html">Quick Records</a></li>
+            <li class="menu_items" id="sublink"><a href="records.php">Quick Records</a></li>
                 <ul class="submenu-links">
                     <li>Patient 1</li>
                     <li>Patient 2</li>
@@ -47,7 +47,7 @@
             <h1 align="center">Patient Registration</h1>
             <p align="center">Please fill in your details below.</p>
             
-            <form action="" method="post">
+            <form action="/Afya/records.php" method="post">
                 <div  align="center" class="form">
                 <ul>
                     <li>
@@ -76,7 +76,7 @@
 
                     <li>
                         <label for="gender">Gender: </label>
-                        <select id="gender">
+                        <select id="gender" name="gender" type="text">
                             <option value="">--Please choose an option--</option>
                             <option value="M">Male</option>
                             <option value="F">Female</option>
@@ -86,7 +86,7 @@
                     </li>
                     <li>
                     <label for="county">County: </label>
-                    <select id="county">
+                    <select id="county" name="county" type="text">
                         <option value="">--Please choose an option--</option>
                             <option value="Mombasa	001">Mombasa	001</option>
                             <option value="Kwale	002">Kwale	002</option>
@@ -150,9 +150,10 @@
                     <li id="buttons">
                         <input type="submit" value="Send" id="submit">
                         <input type="reset" value="Clear" id="clear">
+
                     </li>
                 </ul>
-                </div>
+            </div>
             </form>
         </div>
         
@@ -160,6 +161,7 @@
 
     </div>
     <footer>
+        <br><br><br>
         <div align="center">Ian Karemi | ian.karemi@students.uonbi.ac.ke</div>
         <div align="center">Nairobi</div>
     </footer>
